@@ -1,0 +1,28 @@
+{
+  "name": "dice-roller-app",
+  "version": "1.0.0",
+  "description": "A small dice roller web app",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "build": "tsc && sass src/scss/index.scss:dist/styles.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hayzl/dice-roller-app.git"
+  },
+  "author": "Erik Advocaat",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Hayzl/dice-roller-app/issues"
+  },
+  "homepage": "https://github.com/Hayzl/dice-roller-app#readme",
+  "dependencies": {
+    "sass": "^1.81.1",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
